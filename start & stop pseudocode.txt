@@ -1,0 +1,22 @@
+WAP to accept start and stop values and print the values between them
+
+begin
+ numeric startValue,stopValue
+ print("Enter the startvalue and stopvalue");
+ input startValue,stopValue
+ if(startValue < stopValue){
+       while (startValue<=stopValue){
+          print(startValue)
+          startValue++
+              }
+         }
+  else if(startValue > stopValue){
+     while (startValue>=stopValue){
+          print(startValue)
+          startValue--
+              }
+         }
+  else{
+      pint("your start and stop values are same")
+      }
+End

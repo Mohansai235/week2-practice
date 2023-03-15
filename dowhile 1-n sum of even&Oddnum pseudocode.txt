@@ -1,0 +1,19 @@
+
+begin
+ numeric oddsum=0,evensum=0,n,i=1
+ print("enter n value")
+ input n
+   do
+     {
+       if(i%2==0){
+          evensum=evensum+i
+           }
+        else
+           {
+            oddsum=oddsum+i
+           }
+         i++
+     }while(i<=n);
+print("sum of even numbers from 1-n is",evensum)  
+print("sum of odd numbers from 1-n is",oddsum)
+End

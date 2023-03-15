@@ -1,0 +1,12 @@
+
+begin
+ numeric sum=0,n,i=1
+ print("enter n value")
+ input n
+   do
+     {
+       sum=sum+i
+       i++
+     }while(i<=n);
+  print("sum of 1-n is",sum)
+End

@@ -1,0 +1,12 @@
+Begin
+  numeric count=0,num
+  print("Enter the number");
+  input num
+  while(num!=0)
+  {
+    num=num/10
+    count=count+1
+  }
+  print("No.of digits in a number are",count);
+End  
+    

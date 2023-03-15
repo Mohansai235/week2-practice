@@ -1,0 +1,13 @@
+
+begin
+ numeric num=1,n
+ print("enter n value")
+ input n
+   do
+     {
+       if(num%2==0){
+       print(num,"is a even number");
+         }
+       num++
+     }while(num<=n);
+End

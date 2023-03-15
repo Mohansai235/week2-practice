@@ -1,0 +1,13 @@
+
+begin
+ numeric num,i=1,count=0
+ print("Enter the number to find factors");
+ input num
+ while(i<num){
+       if(num%i==0){
+         count++
+           }
+         i++
+        } 
+ print("No.of factors",count)
+End

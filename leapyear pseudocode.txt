@@ -1,0 +1,18 @@
+Begin
+  numeric year
+  print("Enter the year");
+  input year
+  if(year%4=0 && year%100!=0)
+  {
+    print(year,"is a leap year");
+   }
+  elseif(year%400=0 && year%100!=0)
+    {
+     print(year,"is a leap year");
+    }
+   else
+   {
+     print(year,"is not a leap year");
+   }
+End  
+    

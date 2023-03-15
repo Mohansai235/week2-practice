@@ -1,0 +1,9 @@
+WAP to print 10-1 numbers
+
+begin
+ numeric num=10
+ while num<=10{
+   print(num)
+   num--
+}
+End
